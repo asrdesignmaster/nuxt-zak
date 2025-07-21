@@ -1,5 +1,5 @@
 <template>
-  <header class="header backdrop-blur-xs">
+  <header class="header backdrop-blur-xs min-h-12 lg:min-h-24 py-4 ">
 
       <div class="container">
         <div class="header_content">
