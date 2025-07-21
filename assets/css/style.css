@@ -7,6 +7,12 @@
   --color-light: #fff;
   --color-primary: #C39556;
 }
+body{
+  overflow-x: hidden
+}
+#vue-tracer-overlay {
+  display: none !important;
+}
 
 @layer base {
   h2{

@@ -67,8 +67,8 @@
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative">
         <div class="relative lg:sticky top-4 h-fit">
-          <h3 class="mb-2 uppercase text-gray-700">Why choose us</h3>
-          <h2 class="text-5xl leading-16">Today’s Fast-Paced World, <br /> Efficient Logistics.</h2>
+          <h3 class="mb-2 uppercase text-gray-700 text-center lg:text-left">Why choose us</h3>
+          <h2 class="text-5xl leading-16 text-center lg:text-left">Today’s Fast-Paced World, <br /> Efficient Logistics.</h2>
         </div>
         <div class="grid grid-cols-1 text-center sm:mt-8 sm:grid-cols-2  md:grid-cols-2 gap-4">
           <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
@@ -121,7 +121,7 @@
     <div class="left_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="right_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="relative z-10">
-      <h3 class="mb-2 text-white text-center z-50 text-4xl mb-8">Our Work</h3>
+      <h3 class="text-white text-center z-50 text-4xl mb-8">Our Work</h3>
       <div class="text-center text-white flex justify-center items-center gap-10 flex-wrap">
         <div class="">
           <h2 class="text-white text-7xl">83+</h2>
@@ -138,6 +138,70 @@
       </div>
     </div>
 
+  </section>
+
+  <section class="work_process py-40 ">
+    <div class="container">
+      <h3 class="uppercase text-gray-700 mb-8 text-center">Work Process</h3>
+      <h2 class="text-center text-5xl">Today’s Fast-Paced World's Efficient Logistics.</h2>
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-12 md:gap-6">
+        <!-- Wavy Dashed Line (SVG) -->
+  <svg
+    class="hidden md:block absolute left-0 right-0 top-1/3 transform -translate-y-1/2 z-0"
+    width="100%"
+    height="150"
+    viewBox="0 0 1000 150"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0,75 C150,0 350,150 500,75 C650,0 850,150 1000,75"
+      fill="none"
+      stroke="#CBD5E0"
+      stroke-width="2"
+      stroke-dasharray="10,10"
+    />
+  </svg>
+
+        <!-- Step 1 -->
+        <div class="flex flex-col items-center text-center z-10 max-w-xs">
+          <div class="relative">
+            <img src="/images/receive-package.webp" alt="Step 1"
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+            <span
+              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">01</span>
+          </div>
+          <h3 class="text-xl font-semibold mt-6">Step 1: Receive Package</h3>
+          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
+            the as integer.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex flex-col items-center text-center z-10 max-w-xs">
+          <div class="relative">
+            <img src="/images/receive-package.webp" alt="Step 2"
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+            <span
+              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">02</span>
+          </div>
+          <h3 class="text-xl font-semibold mt-6">Step 2: Transport Packages</h3>
+          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
+            the as integer.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex flex-col items-center text-center z-10 max-w-xs">
+          <div class="relative">
+            <img src="/images/receive-package.webp" alt="Step 3"
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+            <span
+              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">03</span>
+          </div>
+          <h3 class="text-xl font-semibold mt-6">Step 3: Deliver Packages</h3>
+          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
+            the as integer.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="pre_footer | bg-gray-900">
