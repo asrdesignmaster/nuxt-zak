@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-primary: #C39556;
+}
+
+@layer base {
+  h2{
+    @apply text-4xl font-bold pb-8 text-gray-700 ;
+  }
+  .container {
+    @apply mx-auto px-4;
+  }
+
+  /* .main_content_wrapper {
+    @apply py-20 h-[88vh];
+  } */
+
+  .content_wrapper {
+    @apply py-20;
+  }
+
+  .button {
+    @apply bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500 focus:outline-none inline-block;
+  }
+  .curtain {
+    @apply absolute inset-0 bg-black opacity-65 z-[1];
+  }
+}
+
+.nav a{
+  @apply text-lg;
+}
+
+
+
+/* ================ my css ===============  */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 8px;
+}
+
+.lightbox-caption {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  padding: 0 1rem;
+  transform: translateY(-50%);
+  z-index: 10000;
+}
+
+.arrow.left {
+  left: 1rem;
+}
+
+.arrow.right {
+  right: 1rem;
+}
+
+.arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
