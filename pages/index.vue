@@ -3,9 +3,9 @@
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative lg:h-[720px]">
         <div class="relative ">
-          <NuxtImg src="/images/about.webp" width="400" height="auto"
+          <NuxtImg src="/images/about.webp" width="400" height="auto" loading="lazy"
             class="rounded-4xl shadow-lg relative top-0 left-0 md:ablolute" alt="Hero Image" />
-          <NuxtImg src="/images/about-2.webp" width="400" height="auto"
+          <NuxtImg src="/images/about-2.webp" width="400" height="auto" loading="lazy"
             class="rounded-4xl shadow-lg  absolute top-48 left-48 z-10 hidden md:block lg:block" alt="Hero Image" />
         </div>
         <div class="about_us | text-left h-fit lg:sticky relative top-4">
@@ -20,9 +20,9 @@
     </div>
   </section>
 
-  <section class="expertise | bg-black text-white text-center relative py-40 overflow-hidden">
+  <section class="expertise | bg-black text-white text-center relative py-40 overflow-hidden" loading="lazy">
     <div class="plane">
-      <NuxtImg src="images/plane-vector.svg" class="absolute -top-30 -right-40 -rotate-45 w-[650px]" />
+      <NuxtImg src="images/plane-vector.svg" class="absolute -top-30 -right-40 -rotate-45 w-[650px]" loading="lazy" />
     </div>
     <h2 class="text-white font-light">Our Expertise</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mt-10">
@@ -63,7 +63,7 @@
     </div>
   </section>
 
-  <section class="why_us">
+  <section class="why_us" loading="lazy">
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative">
         <div class="relative lg:sticky top-4 h-fit">
@@ -101,7 +101,7 @@
     </div>
   </section>
 
-  <section class="our_work py-40 relative">
+  <section class="our_work py-40 relative" loading="lazy">
     <div class="curtain"></div>
     <div class="left_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="right_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
@@ -138,7 +138,8 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <img src="/images/receive_package.webp" alt="Step 1"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md 
+              hover:shadow-lg  duration-[3s] ease-in-out transform hover:scale-105" loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">01</span>
           </div>
@@ -151,7 +152,7 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <img src="/images/transport.webp" alt="Step 2"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105" loading="lazy"  />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">02</span>
           </div>
@@ -164,7 +165,7 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <img src="/images/deliver.webp" alt="Step 3"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md" />
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105" loading="lazy"  />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">03</span>
           </div>
@@ -295,7 +296,7 @@ useHead({
   }
 
   .right_plane {
-    top: 50%;
+    top: 20%;
     right: 25px;
 
   }

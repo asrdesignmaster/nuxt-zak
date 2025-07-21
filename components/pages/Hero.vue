@@ -33,7 +33,7 @@ const config = useAppConfig()
      animation: animate-icon 12s ease-in-out; 
   }
 }
-@keyframes animate-icon { 0% { transform: translateY(-780%); } 
+@keyframes animate-icon { 0% { transform: translateY(-710%); } 
 100% { transform: translateY(0%); } }
 
 .gr_curtain {

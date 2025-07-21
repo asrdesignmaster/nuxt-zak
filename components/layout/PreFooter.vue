@@ -4,7 +4,7 @@
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="">
-          <NuxtImg src="/images/zak-logistics-logo-white.svg" alt="Logo" class="w-64 mb-4" />
+          <NuxtImg src="/images/zak-logistics-logo-white.svg" alt="Logo" class="w-64 mb-4" loading="lazy" />
           <p class="text-white mt-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 erat, sed diam voluptua.</p>
         </div>
