@@ -1,14 +1,14 @@
 <template>
-  <section>
+  <section class="about_us">
     <div class="container">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20  ">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative lg:h-[720px]">
         <div class="relative ">
           <NuxtImg src="/images/about.webp" width="400" height="auto"
             class="rounded-4xl shadow-lg relative top-0 left-0 md:ablolute" alt="Hero Image" />
           <NuxtImg src="/images/about-2.webp" width="400" height="auto"
             class="rounded-4xl shadow-lg  absolute top-48 left-48 z-10 hidden md:block lg:block" alt="Hero Image" />
         </div>
-        <div class="about_us | text-left flex justify-center  flex-col h-[556px]">
+        <div class="about_us | text-left h-fit lg:sticky relative top-4">
           <h3 class="mb-2 uppercase text-gray-700">About us</h3>
           <h2>Reliable & Express Logistic & Transport Solutions That Saves Your Time!</h2>
           <p class="text-xl text-gray-500">ZAK Logistics is an innovative and energetic shipping / Freight forwarding
@@ -20,7 +20,7 @@
     </div>
   </section>
 
-  <section class="expertise | bg-black text-white text-center relative py-40">
+  <section class="expertise | bg-black text-white text-center relative py-40 overflow-hidden">
     <div class="plane">
       <NuxtImg src="images/plane-vector.svg" class="absolute -top-30 -right-40 -rotate-45 w-[650px]" />
     </div>
@@ -66,11 +66,11 @@
   <section class="why_us">
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative">
-        <div class="sticky top-4 h-fit">
+        <div class="relative lg:sticky top-4 h-fit">
           <h3 class="mb-2 uppercase text-gray-700">Why choose us</h3>
           <h2 class="text-5xl leading-16">Today’s Fast-Paced World, <br /> Efficient Logistics.</h2>
         </div>
-        <div class="grid grid-cols-1 text-center sm:mt-8 sm:grid-cols-2  md:grid-cols-2 gap-0 md:gap-4">
+        <div class="grid grid-cols-1 text-center sm:mt-8 sm:grid-cols-2  md:grid-cols-2 gap-4">
           <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" class="text-center mx-auto text-gray-700"
               viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
@@ -115,9 +115,34 @@
       </div>
     </div>
   </section>
-  <div class="pre_footer | bg-gray-900">
+
+  <section class="our_work py-40 relative">
+    <div class="curtain"></div>
+    <div class="left_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
+    <div class="right_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
+    <div class="relative z-10">
+      <h3 class="mb-2 text-white text-center z-50 text-4xl mb-8">Our Work</h3>
+      <div class="text-center text-white flex justify-center items-center gap-10 flex-wrap">
+        <div class="">
+          <h2 class="text-white text-7xl">83+</h2>
+          <p class="text-2xl uppercase">Clients Worldwide</p>
+        </div>
+        <div class="">
+          <h2 class="text-white text-7xl">36+</h2>
+          <p class="text-2xl uppercase">Countries Covered</p>
+        </div>
+        <div class="">
+          <h2 class="text-white text-7xl">1550+</h2>
+          <p class="text-2xl uppercase">Delivered Packages</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="pre_footer | bg-gray-900">
     <PreFooter />
-  </div>
+  </section>
 
 
 </template>
@@ -193,5 +218,50 @@ useHead({
     background: url('/images/glass.webp');
   }
 
+}
+
+.our_work {
+  background: url('/images/our_work.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.our_work {
+
+  .left_plane,
+  .right_plane {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .right_plane {
+    top: 50%;
+    right: 25px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise {
+    .card {
+      min-height: 350px;
+    }
+  }
+
+  .our_work {
+
+    .left_plane {
+      left: -88px;
+    }
+
+    .right_plane {
+      right: -88px;
+    }
+  }
 }
 </style>
