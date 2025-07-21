@@ -26,7 +26,7 @@
     </div>
     <h2 class="text-white font-light">Our Expertise</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mt-10">
-      <div class="card goods">
+      <div class="card goods | ">
         <div class="card_curtain"></div>
         <div class="card_content">
           All Types of DG goods &Auto Parts
@@ -68,32 +68,33 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10 py-20 relative">
         <div class="relative lg:sticky top-4 h-fit">
           <h3 class="mb-2 uppercase text-gray-700 text-center lg:text-left">Why choose us</h3>
-          <h2 class="text-5xl leading-16 text-center lg:text-left">Today’s Fast-Paced World, <br /> Efficient Logistics.</h2>
+          <h2 class="text-5xl leading-16 text-center lg:text-left">Today’s Fast-Paced World, <br /> Efficient Logistics.
+          </h2>
         </div>
         <div class="grid grid-cols-1 text-center sm:mt-8 sm:grid-cols-2  md:grid-cols-2 gap-4">
           <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
             <Icon name="basil:headset-solid" class="text-gray-700 text-6xl mx-auto" />
             <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Quick Support</h3>
             <p class="mt-5 text-base text-gray-600 font-pj">Providing the best transport and shipping services currently
-              available allover the world. Our skilled</p>
-            </div>
-            <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
+              available allover the world. Our skilled.</p>
+          </div>
+          <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
             <Icon name="lucide:satellite-dish" class="text-gray-700 text-6xl mx-auto" />
             <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Real-Time Tracking</h3>
             <p class="mt-5 text-base text-gray-600 font-pj">Providing the best transport and shipping services currently
               available allover the world. Our skilled</p>
-            </div>
-            <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
+          </div>
+          <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
             <Icon name="material-symbols:delivery-truck-speed-outline-rounded" class="text-gray-700 text-6xl mx-auto" />
-            <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Quick Support</h3>
+            <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Fast & Efficient Delivery</h3>
             <p class="mt-5 text-base text-gray-600 font-pj">Providing the best transport and shipping services currently
-              available allover the world. Our skilled</p>
-            </div>
-            <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
-              <Icon name="ic:outline-payment" class="text-gray-700 text-6xl mx-auto" />
-            <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Real-Time Tracking</h3>
+              available allover the world. Our skilled.</p>
+          </div>
+          <div class="p-4 pt-8 pb-8 rounded-2xl border border-gray-300">
+            <Icon name="ic:outline-payment" class="text-gray-700 text-6xl mx-auto" />
+            <h3 class="mt-6 text-xl font-bold text-gray-900 font-pj">Easy Payment Methods</h3>
             <p class="mt-5 text-base text-gray-600 font-pj">Providing the best transport and shipping services currently
-              available allover the world. Our skilled</p>
+              available allover the world. Our skilled.</p>
           </div>
         </div>
       </div>
@@ -102,8 +103,8 @@
 
   <section class="our_work py-40 relative">
     <div class="curtain"></div>
-    <div class="left_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
-    <div class="right_plane"><img src="/images/plane-vector.svg" alt="plane" /></div>
+    <div class="left_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
+    <div class="right_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="relative z-10">
       <h3 class="text-white text-center z-50 text-4xl mb-8">Our Work</h3>
       <div class="text-center text-white flex justify-center items-center gap-10 flex-wrap">
@@ -130,8 +131,9 @@
       <h2 class="text-center text-5xl">Today’s Fast-Paced World's Efficient Logistics.</h2>
       <div class="relative flex flex-col md:flex-row items-center justify-between gap-12 md:gap-6">
         <!-- Wavy Dashed Line (SVG) -->
-           <img src="/images/wave.svg" alt="Wavy Dashed Line"class="hidden md:block absolute left-0 right-0 top-1/3 transform -translate-y-1/2 z-0" />
-           
+        <img src="/images/wave.svg" alt="Wavy Dashed Line"
+          class="hidden md:block absolute left-0 right-0 top-1/3 transform -translate-y-1/2 z-0" />
+
         <!-- Step 1 -->
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
@@ -210,6 +212,20 @@ useHead({
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    -webkit-transform: scale(1);
+    -webkit-transition: all 0.8s ease-in-out;
+    z-index: 1;
+    box-shadow: 0;
+    border-radius: 0;
+
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -webkit-transition: all 0.8s ease-in-out;
+      z-index: 10;
+      box-shadow: 0 0 11px 4px #0000007a;
+      border-radius: 16px;
+    }
   }
 
   .card_content {
@@ -274,11 +290,41 @@ useHead({
     transform: translateY(-50%);
   }
 
+  .left_plane {
+    left: 30px;
+  }
+
   .right_plane {
     top: 50%;
     right: 25px;
 
   }
+}
+
+.left_plane.animate-bounce {
+  animation: bounce 3s infinite;
+}
+
+.right_plane.animate-bounce {
+  animation: bounce 3.5s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateX(-50%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
 }
 
 @media (max-width: 768px) {
