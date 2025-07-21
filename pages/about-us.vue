@@ -19,7 +19,7 @@
                     location while delivering exceptional results.</p>
             </div>
             <div class="flex justify-center items-center order-1 lg:order-2">
-                <NuxtImg src="/images/about.png" format="webp" densities="1" />
+                <NuxtImg src="/images/about_us.webp" format="webp" densities="1" />
             </div>
         </div>
         <div class="our_clients | py-20 pt-5 ">
@@ -145,30 +145,9 @@
                 </div>
             </div>
         </div>
-        <div class="categories | py-20 ">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
-                <div class="text-center mx-auto">
-                    <NuxtImg src="/images/gold-silver-leafing.webp" format="webp" densities="1"
-                        class="h-80 w-80 object-cover rounded-full" />
-                    <h3 class="font-bold text-xl text-gray-900 text-center pt-3">GOLD & SILVER LEAFING</h3>
-                </div>
-                <div class="text-center mx-auto">
-                    <NuxtImg src="/images/copper-leafing.webp" format="webp" densities="1"
-                        class="h-80 w-80 object-cover rounded-full" />
-                    <h3 class="font-bold text-xl text-gray-900 text-center pt-3">COPPER & CHAMPAGNE LEAFING</h3>
-                </div>
-                <div class="text-center mx-auto">
-                    <NuxtImg src="/images/antique-leafing.webp" format="webp" densities="1"
-                        class="h-80 w-80 object-cover rounded-full" />
-                    <h3 class="font-bold text-xl text-gray-900 text-center pt-3">ANTIQUE LEAFING</h3>
-                </div>
-                <div class="text-center mx-auto">
-                    <NuxtImg src="/images/golden-leafing.webp" format="webp" densities="1"
-                        class="h-80 w-80 object-cover rounded-full" />
-                    <h3 class="font-bold text-xl text-gray-900 text-center pt-3">REAL GOLD LEAFING</h3>
-                </div>
 
-            </div>
-        </div>
     </div>
 </template>
+
+
+
