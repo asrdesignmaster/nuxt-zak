@@ -47,7 +47,11 @@
                             <Icon name="famicons:airplane-sharp" class="text-2xl  text-primary" />
                         </span>
                     </h2>
-                    <p class="text-xl text-gray-500">ZAK Logistics is much more than getting a piece of freight from one point to another. We define logistics as that part of the supply chain process that plans, implements, and controls the efficient, effective flow and storage of goods, services, and related information from the point of origin to the point of consumption in order to meet customers.</p>
+                    <p class="text-xl text-gray-500">ZAK Logistics is much more than getting a piece of freight from one
+                        point to another. We define logistics as that part of the supply chain process that plans,
+                        implements, and controls the efficient, effective flow and storage of goods, services, and
+                        related information from the point of origin to the point of consumption in order to meet
+                        customers.</p>
                 </div>
                 <div class="">
                     <h2 class="flex items-center gap-3">Vission
@@ -55,7 +59,61 @@
                             <Icon name="famicons:airplane-sharp" class="text-2xl  text-primary" />
                         </span>
                     </h2>
-                    <p class="text-xl text-gray-500">ZAK Logistics is much more than getting a piece of freight from one point to another. We define logistics as that part of the supply chain process that plans, implements, and controls the efficient, effective flow and storage of goods, services, and related information from the point of origin to the point of consumption in order to meet customers.</p>
+                    <p class="text-xl text-gray-500">ZAK Logistics is much more than getting a piece of freight from one
+                        point to another. We define logistics as that part of the supply chain process that plans,
+                        implements, and controls the efficient, effective flow and storage of goods, services, and
+                        related information from the point of origin to the point of consumption in order to meet
+                        customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectors | py-32 text-center">
+        <div class="container">
+            <h2 class="text-6xl mb-6">Our Major Expertise Sectors</h2>
+            <div class="">
+
+                <div class="flex flex-col w-full mb-5 sm:flex-row">
+                    <div class="w-full mb-6 sm:mb-0 sm:w-1/2">
+                        <div class="h-full ml-0 mr-0 sm:mr-10">
+                            <div class="h-full px-5 py-10 bg-white border-2 border-blue-400 rounded-lg flex flex-col item-center">
+                                <div class="flex items-center -mt-1">
+                                    <h3 class="my-2 text-lg font-bold text-gray-800">EUROPE</h3>
+                                </div>
+                                <p class="text-gray-600 text-left">UK, Italy, Spain, Germany, Denmark, Poland, Sweden, Portugal, Switzerland, Bulgaria, France, Austria, Hungary, Netherlands, Greece, Belgium, Turkey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full mb-6 sm:mb-0 sm:w-1/2 flex flex-col gap-5">
+                        <div class="h-1/2 ml-0 mr-0 sm:mr-10">
+                            <div class="h-full px-5 py-1 bg-white border-2 border-yellow-400 rounded-lg ">
+                                <div class="flex items-center -mt-1">
+                                    <h3 class="my-2 text-lg font-bold text-gray-800">Hacking / RE</h3>
+                                </div>
+                                <p class="text-gray-600 text-left">UAE, Saudi Arabia, Egypt.</p>
+                            </div>
+                        </div>
+                        <div class="h-1/2 ml-0 mr-0 sm:mr-10">
+                            <div class="h-full px-5 py-1 bg-white border-2 border-yellow-400 rounded-lg">
+                                <div class="flex items-center -mt-1">
+                                    <h3 class="my-2 text-lg font-bold text-gray-800">Hacking / RE</h3>
+                                </div>
+                                <p class="text-gray-600 text-left">UAE, Saudi Arabia, Egypt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2">
+                        <div class="h-full ml-0 md:mr-10">
+                            <div class="h-full px-5 py-10 bg-white border-2 border-green-500 rounded-lg flex flex-col item-center">
+                                <div class="flex items-center -mt-1">
+                                    <h3 class="my-2 text-lg font-bold text-gray-800">Bot/Script Development</h3>
+                                </div>
+                                <p class="text-gray-600 text-left">China, Singapore, Malaysia, Japan, Thailand, Vietnam, Taiwan, Philippines, Indonesia, South-Korea & Australia, New Zealand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
