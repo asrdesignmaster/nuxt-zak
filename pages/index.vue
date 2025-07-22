@@ -101,88 +101,9 @@
     </div>
   </section>
 
-  <section class="our_work py-40 relative" loading="lazy">
-    <div class="curtain"></div>
-    <div class="left_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
-    <div class="right_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
-    <div class="relative z-10">
-      <h3 class="text-white text-center z-50 text-4xl mb-14">Our Work</h3>
-      <div class="text-center text-white flex justify-center items-center gap-18 flex-wrap">
-        <div class="">
-          <h2 class="text-white text-7xl">83+</h2>
-          <p class="text-2xl uppercase">Clients Worldwide</p>
-        </div>
-        <div class="">
-          <h2 class="text-white text-7xl">36+</h2>
-          <p class="text-2xl uppercase">Countries Covered</p>
-        </div>
-        <div class="">
-          <h2 class="text-white text-7xl">1550+</h2>
-          <p class="text-2xl uppercase">Delivered Packages</p>
-        </div>
-      </div>
-    </div>
+<OurWork />
 
-  </section>
-
-  <section class="work_process py-40 ">
-    <div class="container">
-      <h3 class="uppercase text-gray-700 mb-8 text-center">Work Process</h3>
-      <h2 class="text-center text-5xl mb-10">Today’s Fast-Paced World's Efficient Logistics.</h2>
-      <div class="relative flex flex-col md:flex-row items-center justify-between gap-12 md:gap-6">
-        <!-- Wavy Dashed Line (SVG) -->
-        <img src="/images/wave.svg" alt="Wavy Dashed Line"
-          class="hidden md:block absolute left-0 right-0 top-1/3 transform -translate-y-1/2 z-0" />
-
-        <!-- Step 1 -->
-        <div class="flex flex-col items-center text-center z-10 max-w-xs">
-          <div class="relative">
-            <img src="/images/receive_package.webp" alt="Step 1" class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md 
-              hover:shadow-lg  duration-[3s] ease-in-out transform hover:scale-105" loading="lazy" />
-            <span
-              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">1</span>
-              <span
-              class="absolute top-4 right-4 w-10 h-10 rounded-full animate-ping flex items-center justify-center border-2 border-amber-400 "></span>
-          </div>
-          <h3 class="text-xl font-semibold mt-6">Step 1: Receive Package</h3>
-          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
-            the as integer.</p>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="flex flex-col items-center text-center z-10 max-w-xs">
-          <div class="relative">
-            <img src="/images/transport.webp" alt="Step 2"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
-              loading="lazy" />
-            <span
-              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">2</span>
-            <span
-              class="absolute top-4 right-4 w-10 h-10 rounded-full animate-ping flex items-center justify-center border-2 border-amber-400 "></span>
-          </div>
-          <h3 class="text-xl font-semibold mt-6">Step 2: Transport Packages</h3>
-          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
-            the as integer.</p>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="flex flex-col items-center text-center z-10 max-w-xs">
-          <div class="relative">
-            <img src="/images/deliver.webp" alt="Step 3"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
-              loading="lazy" />
-            <span
-              class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">3</span>
-              <span
-              class="absolute top-4 right-4 w-10 h-10 rounded-full animate-ping flex items-center justify-center border-2 border-amber-400 "></span>
-          </div>
-          <h3 class="text-xl font-semibold mt-6">Step 3: Deliver Packages</h3>
-          <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
-            the as integer.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<WorkProcess />
 
   <section class="contact_now | py-20 bg-primary">
     <div class="container">
@@ -205,6 +126,8 @@
 <script setup>
 import Button from '~/components/common/LinkButton.vue'
 import PreFooter from '~/components/layout/PreFooter.vue'
+import OurWork from '~/components/pages/OurWork.vue'
+import WorkProcess from '~/components/pages/WorkProcess.vue'
 
 const config = useAppConfig()
 
@@ -294,61 +217,6 @@ useHead({
 
 }
 
-.our_work {
-  background: url('/images/our_work.webp');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.our_work {
-
-  .left_plane,
-  .right_plane {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    z-index: 2;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .left_plane {
-    left: 30px;
-  }
-
-  .right_plane {
-    top: 20%;
-    right: 25px;
-
-  }
-}
-
-.left_plane.animate-bounce {
-  animation: bounce 3s infinite;
-}
-
-.right_plane.animate-bounce {
-  animation: bounce 3.5s infinite;
-}
-
-@keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateX(-50%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
-}
-
-.animate-bounce {
-  animation: bounce 1s infinite;
-}
 
 .contact_now h3 {
   width: 50%;
@@ -358,17 +226,6 @@ useHead({
   .expertise {
     .card {
       min-height: 350px;
-    }
-  }
-
-  .our_work {
-
-    .left_plane {
-      left: -88px;
-    }
-
-    .right_plane {
-      right: -88px;
     }
   }
 
