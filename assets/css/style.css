@@ -1,12 +1,9 @@
 @import "tailwindcss";
 
-
-
-:root {
-  --color-dark: #000;
-  --color-light: #fff;
-  --color-primary: #C39556;
+@theme {
+  --color-primary: #0E2D43;
 }
+
 body{
   overflow-x: hidden
 }
@@ -31,7 +28,22 @@ body{
   }
 
   .button {
-    @apply bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500 focus:outline-none inline-block;
+    @apply cursor-pointer bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500 focus:outline-none inline-block;
+  }
+  .btn_sm {
+    @apply py-2 px-4 text-[1rem];
+  }
+  .btn_md {
+    @apply py-3 px-6 text-lg;
+  }
+  .btn_lg {
+    @apply py-4 px-8 text-xl;
+  }
+  .btn_xl {
+    @apply py-6 px-16 text-2xl;
+  }
+  .btn_2xl {
+    @apply py-8 px-20 text-3xl;
   }
   .curtain {
     @apply absolute inset-0 bg-black opacity-65 z-[1];
