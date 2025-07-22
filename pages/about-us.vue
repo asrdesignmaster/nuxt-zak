@@ -77,17 +77,21 @@
                 <div class="flex flex-col w-full mb-5 sm:flex-row">
                     <div class="w-full mb-6 sm:mb-0 sm:w-1/2">
                         <div class="h-full ml-0 mr-0 sm:mr-10">
-                            <div class="h-full px-5 py-10 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg flex flex-col item-center">
+                            <div
+                                class="h-full px-5 py-10 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg flex flex-col item-center">
                                 <div class="flex items-center -mt-1">
                                     <h3 class="my-2 text-lg font-bold text-gray-800">EUROPE</h3>
                                 </div>
-                                <p class="text-gray-600 text-left">UK, Italy, Spain, Germany, Denmark, Poland, Sweden, Portugal, Switzerland, Bulgaria, France, Austria, Hungary, Netherlands, Greece, Belgium, Turkey.</p>
+                                <p class="text-gray-600 text-left">UK, Italy, Spain, Germany, Denmark, Poland, Sweden,
+                                    Portugal, Switzerland, Bulgaria, France, Austria, Hungary, Netherlands, Greece,
+                                    Belgium, Turkey.</p>
                             </div>
                         </div>
                     </div>
                     <div class="w-full mb-6 sm:mb-0 sm:w-1/2 flex flex-col gap-5">
                         <div class="h-1/2 ml-0 mr-0 sm:mr-10">
-                            <div class="h-full px-5 py-1 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg ">
+                            <div
+                                class="h-full px-5 py-1 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg ">
                                 <div class="flex items-center -mt-1">
                                     <h3 class="my-2 text-lg font-bold text-gray-800">MIIDDLE EAST</h3>
                                 </div>
@@ -95,7 +99,8 @@
                             </div>
                         </div>
                         <div class="h-1/2 ml-0 mr-0 sm:mr-10">
-                            <div class="h-full px-5 py-1 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg">
+                            <div
+                                class="h-full px-5 py-1 bg-white shadow-xl shadow-gray-200 border border-gray-200 rounded-lg">
                                 <div class="flex items-center -mt-1">
                                     <h3 class="my-2 text-lg font-bold text-gray-800">EAST</h3>
                                 </div>
@@ -105,11 +110,13 @@
                     </div>
                     <div class="w-full sm:w-1/2">
                         <div class="h-full ml-0 md:mr-10">
-                            <div class="h-full px-5 py-10 bg-white shadow-xl border border-gray-200 rounded-lg flex flex-col item-center">
+                            <div
+                                class="h-full px-5 py-10 bg-white shadow-xl border border-gray-200 rounded-lg flex flex-col item-center">
                                 <div class="flex items-center -mt-1">
                                     <h3 class="my-2 text-lg font-bold text-gray-800">FAR-EAST</h3>
                                 </div>
-                                <p class="text-gray-600 text-left">China, Singapore, Malaysia, Japan, Thailand, Vietnam, Taiwan, Philippines, Indonesia, South-Korea & Australia, New Zealand
+                                <p class="text-gray-600 text-left">China, Singapore, Malaysia, Japan, Thailand, Vietnam,
+                                    Taiwan, Philippines, Indonesia, South-Korea & Australia, New Zealand
                                 </p>
                             </div>
                         </div>
@@ -118,23 +125,35 @@
             </div>
         </div>
     </section>
+    <OurWork />
+
+    <WorkProcess />
+
+    <section class="pre_footer | bg-gray-900">
+        <PreFooter />
+    </section>
+
 </template>
 
 <script setup>
 import DefaultHeader from '~/components/layout/DefaultHeader.vue'
+import OurWork from '~/components/pages/OurWork.vue'
+import WorkProcess from '~/components/pages/WorkProcess.vue'
+import PreFooter from '~/components/layout/PreFooter.vue'
+
 const config = useAppConfig()
 
 useHead({
-  title: 'About us | ' + config.siteName,
-  meta: [
-    {
-      name: 'description',
-      content: 'Reliable & Express Logistic & Transport Solutions That Saves Your Time!'
-    },
-    {
-      name: 'keywords',
-      content: 'logistics, transport, shipping, freight forwarding, express delivery, global logistics, supply chain management, cargo services, international shipping, warehousing'
-    },
-  ]
+    title: 'About us | ' + config.siteName,
+    meta: [
+        {
+            name: 'description',
+            content: 'Reliable & Express Logistic & Transport Solutions That Saves Your Time!'
+        },
+        {
+            name: 'keywords',
+            content: 'logistics, transport, shipping, freight forwarding, express delivery, global logistics, supply chain management, cargo services, international shipping, warehousing'
+        },
+    ]
 })
 </script>

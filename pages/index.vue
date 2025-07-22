@@ -101,9 +101,9 @@
     </div>
   </section>
 
-<OurWork />
+  <OurWork />
 
-<WorkProcess />
+  <WorkProcess />
 
   <section class="contact_now | py-20 bg-primary">
     <div class="container">

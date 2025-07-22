@@ -12,7 +12,7 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <NuxtImg src="/images/receive_package.webp" alt="Step 1" class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md 
-              hover:shadow-lg  duration-[3s] ease-in-out transform hover:scale-105" loading="lazy" />
+              hover:shadow-lg  duration-[0.5s] ease-in-out transform hover:scale-105" loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">1</span>
               <span
@@ -27,7 +27,7 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <NuxtImg src="/images/transport.webp" alt="Step 2"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[0.5s] ease-in-out transform hover:scale-105"
               loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">2</span>
@@ -43,7 +43,7 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <NuxtImg src="/images/deliver.webp" alt="Step 3"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[0.5s] ease-in-out transform hover:scale-105"
               loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full  flex items-center justify-center font-bold text-black text-lg">3</span>
