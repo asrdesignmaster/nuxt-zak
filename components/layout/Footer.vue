@@ -10,7 +10,7 @@ const config = useAppConfig()
 <style scoped>
 .footer {
   padding: 20px;
-  background-color: #333;
+  background-color: #000;
   color: white;
   text-align: center;
 }

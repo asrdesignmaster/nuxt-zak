@@ -137,8 +137,7 @@
         <!-- Step 1 -->
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
-            <img src="/images/receive_package.webp" alt="Step 1"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md 
+            <img src="/images/receive_package.webp" alt="Step 1" class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md 
               hover:shadow-lg  duration-[3s] ease-in-out transform hover:scale-105" loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">01</span>
@@ -152,7 +151,8 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <img src="/images/transport.webp" alt="Step 2"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105" loading="lazy"  />
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
+              loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">02</span>
           </div>
@@ -165,13 +165,25 @@
         <div class="flex flex-col items-center text-center z-10 max-w-xs">
           <div class="relative">
             <img src="/images/deliver.webp" alt="Step 3"
-              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105" loading="lazy"  />
+              class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-md duration-[3s] ease-in-out transform hover:scale-105"
+              loading="lazy" />
             <span
               class="absolute top-4 right-4 bg-yellow-400 w-10 h-10 rounded-full flex items-center justify-center font-bold text-black">03</span>
           </div>
           <h3 class="text-xl font-semibold mt-6">Step 3: Deliver Packages</h3>
           <p class="text-gray-600 text-lg mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nullam
             the as integer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact_now | py-20 bg-primary">
+    <div class="container">
+      <div class="flex item-center gap-4">
+        <h3 class="text-white text-4xl">If you have any question or Enquiry feel free to contat us now</h3>
+        <div class="">
+          <Button class="btn_xl" to="/contact" color="white" size="lg">Contact Us Now</Button>
         </div>
       </div>
     </div>
@@ -328,6 +340,10 @@ useHead({
   animation: bounce 1s infinite;
 }
 
+.contact_now h3 {
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .expertise {
     .card {
@@ -344,6 +360,10 @@ useHead({
     .right_plane {
       right: -88px;
     }
+  }
+
+  .contact_now h3 {
+    width: 0;
   }
 }
 </style>

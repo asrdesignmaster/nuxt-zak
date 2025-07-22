@@ -4,7 +4,7 @@
       <Icon name="hugeicons:safe-delivery-02" class="delivery_icon | absolute left-1/12 z-10 text-9xl text-white opacity-30" />
       <h1 class="text-white text-8xl md:text-9xl lg:text-[200px] leading-24 md:leading-34 lg:leading-60 | font-bold text-shadow-gray-800 text-shadow-lg/30 opacity-25">Logistics</h1>
       <p class="text-xl md:text-3xl lg:text-4xl my-5 uppercase font-bold relative z-20 ">Safe & Reliable Cargo Solutions</p>
-    <Button link="/about-us" class="relative z-20 ">Read more<span class="sr-only">About Paradise {{ config.siteName }}</span></Button>
+    <Button link="/about-us" size="md" class="relative z-20 ">Read more<span class="sr-only">About Paradise {{ config.siteName }}</span></Button>
 
     </section>
 </template>
