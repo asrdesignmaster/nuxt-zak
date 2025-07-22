@@ -4,11 +4,7 @@
       <Header />
     </div>
     <main class="page-content">
-      <div class="container">
-        <div class="main_content_wrapper">
           <NuxtPage />
-        </div>
-      </div>
     </main>
     <Footer />
   </div>
@@ -23,7 +19,5 @@ import Footer from '~/components/layout/Footer.vue'
 .header {
   border-bottom: 1px solid #eaeaea;
 }
-.page-content {
-  padding-top: 32px;
-}
+
 </style>

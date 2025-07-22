@@ -118,3 +118,9 @@ body{
   opacity: 0.3;
   cursor: default;
 }
+
+
+
+.default_header{
+  @apply bg-primary text-white py-4 px-6 items-center bg-cover bg-center bg-no-repeat;
+}
