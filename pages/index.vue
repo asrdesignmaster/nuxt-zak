@@ -106,8 +106,8 @@
     <div class="left_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="right_plane animate-bounce"><img src="/images/plane-vector.svg" alt="plane" /></div>
     <div class="relative z-10">
-      <h3 class="text-white text-center z-50 text-4xl mb-8">Our Work</h3>
-      <div class="text-center text-white flex justify-center items-center gap-10 flex-wrap">
+      <h3 class="text-white text-center z-50 text-4xl mb-14">Our Work</h3>
+      <div class="text-center text-white flex justify-center items-center gap-18 flex-wrap">
         <div class="">
           <h2 class="text-white text-7xl">83+</h2>
           <p class="text-2xl uppercase">Clients Worldwide</p>
