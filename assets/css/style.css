@@ -2,6 +2,7 @@
 
 @theme {
   --color-primary: #0E2D43;
+  --color-secondary: #147CB5;
 }
 
 body{
@@ -28,7 +29,7 @@ body{
   }
 
   .button {
-    @apply cursor-pointer bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-gray-800 transition duration-500 focus:outline-none inline-block;
+    @apply cursor-pointer bg-black text-white py-2 px-6 uppercase outline-2 outline-white rounded-full hover:bg-secondary transition duration-500 focus:outline-none inline-block;
   }
   .btn_sm {
     @apply py-2 px-4 text-[1rem];
