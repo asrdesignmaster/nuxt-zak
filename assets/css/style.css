@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
+
 
 @theme {
   --color-primary: #0E2D43;
   --color-secondary: #147CB5;
+
+   --font-roboto: "Roboto", sans-serif; 
 }
+
+
 
 body{
   overflow-x: hidden
@@ -13,6 +19,9 @@ body{
 }
 
 @layer base {
+  body {
+    @apply font-roboto tracking-wide;
+  }
   h2{
     @apply text-4xl font-bold pb-8 text-gray-700 ;
   }
