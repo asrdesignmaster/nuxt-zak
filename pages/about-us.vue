@@ -122,4 +122,19 @@
 
 <script setup>
 import DefaultHeader from '~/components/layout/DefaultHeader.vue'
+const config = useAppConfig()
+
+useHead({
+  title: 'About us | ' + config.siteName,
+  meta: [
+    {
+      name: 'description',
+      content: 'Reliable & Express Logistic & Transport Solutions That Saves Your Time!'
+    },
+    {
+      name: 'keywords',
+      content: 'logistics, transport, shipping, freight forwarding, express delivery, global logistics, supply chain management, cargo services, international shipping, warehousing'
+    },
+  ]
+})
 </script>

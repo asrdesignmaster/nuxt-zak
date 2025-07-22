@@ -217,8 +217,12 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Gold and silver leafing services for furniture, religious places, and interior decor across India.'
-    }
+      content: 'Reliable & Express Logistic & Transport Solutions That Saves Your Time!'
+    },
+    {
+      name: 'keywords',
+      content: 'logistics, transport, shipping, freight forwarding, express delivery, global logistics, supply chain management, cargo services, international shipping, warehousing'
+    },
   ]
 })
 
