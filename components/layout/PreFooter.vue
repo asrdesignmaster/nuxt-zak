@@ -8,7 +8,7 @@
           <p class="text-white mt-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 erat, sed diam voluptua.</p>
         </div>
-        <div class="text-white mx-auto">
+        <div class="text-white lg:mx-auto">
           <h3 class="mb-4 text-xl">Useful Links</h3>
           <nav class="footer_nav">
             <Nav />
