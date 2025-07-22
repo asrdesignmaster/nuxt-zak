@@ -105,16 +105,7 @@
 
   <WorkProcess />
 
-  <section class="contact_now | py-20 bg-primary">
-    <div class="container">
-      <div class="flex item-center gap-4">
-        <h3 class="text-white text-4xl">If you have any question or Enquiry feel free to contat us now</h3>
-        <div class="">
-          <Button class="btn_xl" to="/contact" color="white" size="lg">Contact Us Now</Button>
-        </div>
-      </div>
-    </div>
-  </section>
+  <ContactNow />
 
   <section class="pre_footer | bg-gray-900">
     <PreFooter />
@@ -124,10 +115,10 @@
 </template>
 
 <script setup>
-import Button from '~/components/common/LinkButton.vue'
 import PreFooter from '~/components/layout/PreFooter.vue'
 import OurWork from '~/components/pages/OurWork.vue'
 import WorkProcess from '~/components/pages/WorkProcess.vue'
+import ContactNow from '~/components/pages/ContactNow.vue'
 
 const config = useAppConfig()
 
@@ -218,10 +209,6 @@ useHead({
 }
 
 
-.contact_now h3 {
-  width: 50%;
-}
-
 @media (max-width: 768px) {
   .expertise {
     .card {
@@ -229,8 +216,5 @@ useHead({
     }
   }
 
-  .contact_now h3 {
-    width: 0;
-  }
 }
 </style>
