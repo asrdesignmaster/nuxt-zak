@@ -1,11 +1,11 @@
 <template>
-    <nav class="nav  md:flex hidden">
+    <nav class="nav  md:flex">
       <Nav />
-      <NuxtLink to="tel:1234567890">
+      <NuxtLink to="tel:1234567890" class="hidden lg:inline-block">
         <span class="sr-only">Call us</span>
         <Icon name="material-symbols:call" class="text-gray-800 text-3xl" />
       </NuxtLink>
-      <NuxtLink to="mailto:test@test.com">
+      <NuxtLink to="mailto:test@test.com" class="hidden lg:inline-block">
         <span class="sr-only">Email us</span>
         <Icon name="material-symbols:mail-outline-rounded" class="text-gray-800 text-3xl" />
       </NuxtLink>

@@ -4,7 +4,7 @@
         <div class="container h-48">
             <div class="relative w-full h-full">
                 <div class="absolute left-0 -bottom-2">
-                    <h1 class="text-7xl font-bold text-white tracking-wide uppercase relative z-50">
+                    <h1 class="text-5xl lg:text-7xl font-bold text-white tracking-wide uppercase relative z-20">
 
                         {{ title }}
                         

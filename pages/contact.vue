@@ -11,9 +11,11 @@
                                           <Icon name="famicons:airplane-sharp" class="text-2xl  text-primary" />
                                     </span>
                               </h2>
-                              <p class="text-gray-700">We pride ourselves on providing the best transport & sharing
-                                    services available allover the world.</p>
-                              <div class="py-4 text-gray-700">
+                              <p class="text-gray-700">
+                                    We pride ourselves on providing the best transport & sharing
+                                    services available allover the world.
+                              </p>
+                              <div class="py-4 text-gray-700 mt-3">
                                     <p class="uppercase text-2xl font-bold">ZAK Logistics</p>
                                     <p>
                                           Unit No. 211, Lodha Supremus<br />
@@ -44,7 +46,7 @@
 
                         </div>
 
-                        <div class="md:w-1/3 p-5 lg:p-10 flex flex-col justify-between">
+                        <div class="md:w-1/3 py-5 px-0 lg:p-10 flex flex-col justify-between">
                               <form class="space-y-6">
                                     <div class="">
                                           <!-- Full Name -->
@@ -106,7 +108,8 @@
             <div class="relative w-full h-[600px]">
                   <iframe class="absolute top-0 left-0 w-full h-full"
                         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3767.9560909023285!2d72.94673076541427!3d19.197120081374084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLodha%20Supremus%20MIDC%20Plot%20No.%3A%20F4%20%20thane%26%204%2F1!5e0!3m2!1sen!2sin!4v1753346530621!5m2!1sen!2sin"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                   </iframe>
 
             </div>
