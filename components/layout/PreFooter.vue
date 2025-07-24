@@ -15,17 +15,7 @@ erat, sed diam voluptua.</p>
           </nav>
         </div>
         <div class="text-white">
-          <div class="flex items-center gap-4">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <Icon name="mdi:facebook" class="text-4xl" />
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <Icon name="ri:linkedin-box-fill" class="text-4xl" />
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <Icon name="ic:outline-whatsapp" class="text-4xl" />
-            </a>
-          </div>
+          <SocialIcons />
           <div class="mt-4">
             <p class="mt-0.5 flex items-center gap-3 mb-3">
               <span>
@@ -47,6 +37,7 @@ erat, sed diam voluptua.</p>
 
 <script setup>
 import Nav from '~/components/layout/Nav.vue'
+import SocialIcons from '~/components/layout/Social.vue'
 </script>
 
 <style>
